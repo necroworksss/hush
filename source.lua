@@ -284,7 +284,7 @@ if not requestsDisabled and not useStudio then
 				reporter = Analytics.new({
 					url          = "https://rayfield-collect.sirius-software-ltd.workers.dev",
 					token        = ANALYTICS_TOKEN,
-					product_name = "Rayfield",
+					product_name = "Hushed",
 					category     = "UILibrary",
 				})
 			end)
@@ -723,8 +723,8 @@ repeat
 	correctBuild = false
 
 	if not warned then
-		warn('Rayfield | Build Mismatch')
-		print('Rayfield may encounter issues as you are running an incompatible interface version ('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.')
+		warn('Hushed | Build Mismatch')
+		print('Hushed may encounter issues as you are running an incompatible interface version ('.. ((Rayfield:FindFirstChild('Build') and Rayfield.Build.Value) or 'No Build') ..').\n\nThis version of Rayfield is intended for interface build '..InterfaceBuild..'.')
 		warned = true
 	end
 
@@ -770,7 +770,7 @@ end
 
 do
 	local AssetPath = RayfieldFolder.."/Assets"
-	local AssetBaseURL = "https://github.com/SiriusSoftwareLtd/Rayfield/blob/main/assets/"
+	local AssetBaseURL = "
 
 	local assetFiles = {
 		["111263549366178"] = AssetBaseURL.."111263549366178.png?raw=true",
